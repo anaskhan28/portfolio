@@ -357,7 +357,7 @@ div.goto-top i {
         flex-direction: column;
     }
     main .right img{
-        max-width: 50%;
+        max-width: 70%;
     }
     main .left h1{
         font-size: 1.5rem;
@@ -400,6 +400,9 @@ section.projects {
 
   section.skills div.cards-skills div.card-skill i {
     font-size: 3rem;
+  }
+footer .span{
+      align-items: center;
   }
 
 }
