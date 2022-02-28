@@ -60,10 +60,12 @@ header .content{
     
     
 }
-header .content .logo{
+header .content span.logo{
     font-size: 26px;
     font-weight: 700;
     margin-left: 10%;
+    
+
 }
 
 header .content ul{
@@ -99,14 +101,14 @@ main .left h2{
     margin-bottom: 37px;
 }
 
-main button{
+main button {
     font-family: 'DM Sans', sans-serif;
     font-size: 14px;
     font-weight: 700;
     cursor: pointer;
 }
 
-main .btn .cv{
+main .btn .cv {
     width: 143px;
     height: 42px;
     color: var(--dark);
@@ -115,7 +117,9 @@ main .btn .cv{
     margin-right: 15px;
     padding: 12px, 25px;
 }
-
+#pdf{
+    color: var(--dark);
+}
 main .btn .contact{
     width: 160px;
     height: 42px;
@@ -310,6 +314,9 @@ footer span a{
     color: var(--yellow);
 }
 
+.card-serve i{
+    color: var(--gray);
+}
 div.goto-top{
     display: flex;
     justify-self: center;
@@ -400,9 +407,6 @@ section.projects {
 
   section.skills div.cards-skills div.card-skill i {
     font-size: 3rem;
-  }
-footer .span{
-      align-items: center;
   }
 
 }
