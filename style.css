@@ -231,7 +231,7 @@ section.projects div.card{
     padding: 20px, 25px;
 }
 
-section.projects div.cards div.card div.img-project{
+section.projects div.cards div.card div.img-project .img{
     margin-top: 20px;
     width: 300px;
     height: 130px;
